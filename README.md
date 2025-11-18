@@ -88,7 +88,7 @@ sudo chown -R adminmarketing /home/nabilbouato/project_file_manajement_server/ma
 Fungsinya:
 Mengubah kepemilikan folder:
 /home/nabilbouato/project_file_manajement_server/marketing/
-➡ menjadi milik user adminmarketing
+menjadi milik user adminmarketing
 Penjelasan parameter:
 sudo → menjalankan perintah dengan hak administrator
 chown → change owner (mengubah pemilik file/folder)
