@@ -117,7 +117,7 @@ membuka folder
 Ini membuat folder tersebut sangat aman / privat.
 
 \
-6. https://drive.google.com/file/d/1oEChKFREOm7O6zK3ANEdi-03KwsJxFqJ/view?usp=drivesdk
+5. https://drive.google.com/file/d/1oEChKFREOm7O6zK3ANEdi-03KwsJxFqJ/view?usp=drivesdk
 
 ```
 sudo adduser adminengineering
@@ -174,9 +174,8 @@ Dengan kata lain:
  Hanya user adminengineering yang dapat mengakses folder engineering.
 Semua user lain:  tidak bisa membaca, membuka, atau mengedit
 
-```
-7.https://drive.google.com/file/d/1eHpw2USRgMj1tm8Ie3SP54af2aL0rBQP/view?usp=drivesdk
-````
+
+6.https://drive.google.com/file/d/1eHpw2USRgMj1tm8Ie3SP54af2aL0rBQP/view?usp=drivesdk
 ```
 sudo adduser adminhr
 ```
@@ -268,7 +267,7 @@ Jika Anda memiliki izin baca (r) tetapi tidak memiliki izin eksekusi (x), Anda d
 
 Jika Anda tidak memiliki izin eksekusi (x), sistem akan menolak perintah cd. * Konteks: Kemungkinan besar, direktori marketing/ diatur sedemikian rupa (misalnya, izinnya 644 atau 744, tetapi pengguna nabilbouato bukan pemilik atau anggota grup yang diizinkan) sehingga hanya pengguna tertentu (mungkin root atau pengguna lain) yang boleh masuk ke dalamnya.
 
-🛠️ Solusi (Asumsi)
+ Solusi (Asumsi)
 Untuk memperbaiki kesalahan ini, pengguna yang memiliki hak akses (biasanya pemilik direktori atau administrator dengan sudo) perlu menggunakan perintah chmod untuk memberikan izin eksekusi (x) kepada pengguna nabilbouato atau kelompok yang dimiliki nabilbouato.
 
 
@@ -303,7 +302,7 @@ Izin Eksekusi pada Direktori: Pada Linux, untuk dapat masuk ke dalam direktori m
 
 Konteks Tambahan: Ini adalah pola kesalahan yang sama dengan perintah sebelumnya (cd marketing/ dan cd engineering/), menunjukkan bahwa struktur izin (permissions) pada direktori HR dan direktori lainnya di dalam project_file_management_server diatur untuk membatasi akses masuk bagi pengguna aktif tersebut.
 
-💡 Solusi
+ Solusi
 Untuk mengatasi masalah ini, pengguna harus memastikan bahwa pengguna adminengineer atau grup di mana pengguna tersebut menjadi anggotanya memiliki izin eksekusi (x) pada direktori HR. Hal ini biasanya dilakukan oleh pemilik direktori atau administrator (root) menggunakan perintah chmod.
 
 
@@ -378,7 +377,7 @@ ls
 
 ls: Singkatan dari List. Perintah ini digunakan untuk mencantumkan atau menampilkan konten (direktori dan file) dari direktori kerja saat ini.
 
-📄 Output: Daftar Isi Direktori
+ Output: Daftar Isi Direktori
 Output dari perintah ls adalah daftar yang panjang, yang menunjukkan banyak file dan direktori dalam direktori kerja saat ini:
 
 Direktori (biasanya berwarna biru/biru muda di terminal):
